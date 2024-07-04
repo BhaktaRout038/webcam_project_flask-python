@@ -16,7 +16,9 @@ cd path/to/your/webcam_project
 Step 2. Create the Virtual Environment
 -----------------------------------------
 Create a virtual environment named venv using the venv module that comes with Python:
+
 python -m venv venv
+
 This command will create a directory named venv inside your webcam_project directory. The structure will look like this:
 
 ```
