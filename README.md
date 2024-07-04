@@ -19,8 +19,7 @@ Create a virtual environment named venv using the venv module that comes with Py
 python -m venv venv
 This command will create a directory named venv inside your webcam_project directory. The structure will look like this:
 
-bash
-Copy code
+```
 webcam_project/
 │
 ├── venv/                # Virtual environment directory
@@ -28,6 +27,7 @@ webcam_project/
 ├── app.py               # Flask application file
 └── templates/
     └── index.html       # HTML template file
+```
     
 Step-3. Activate the Virtual Environment
 -----------------------------------------
@@ -57,16 +57,19 @@ You can verify that the packages are installed by listing the installed packages
 
 pip list
 
-Step-6: is not compulsory its for production deployment part................... skip this step
 Step-6: Deactivate the Virtual Environment
+------------------------------------------
+
+Step-6: is not compulsory its for production deployment part................... skip this step.
+
 When you're done working in the virtual environment, you can deactivate it:
 deactivate
 
 
-Complete Project Setup
+𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐒𝐞𝐭𝐮𝐩
 
 Once you have completed the above steps, your project structure should look like this, and you can proceed with running your Flask application:
-
+```
 webcam_project/
 │
 ├── venv/                # Virtual environment directory
@@ -78,6 +81,7 @@ webcam_project/
 ├── app.py               # Flask application file
 └── templates/
     └── index.html       # HTML template file
+```
 Running the Flask Application
 With the virtual environment still activated, you can run your Flask application:
 python app.py
@@ -205,3 +209,6 @@ webcam_project/
 ```
 
 By following these steps, you will have a VS Code setup ready to run and debug your Flask application.
+
+creatred by- https://bhaktarout038.github.io/bhaktarout/
+             
