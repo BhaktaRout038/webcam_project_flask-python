@@ -40,11 +40,13 @@ venv\Scripts\activate
 
 On macOS and Linux:
 source venv/bin/activate
+
 After activation, your terminal prompt should change to indicate that the virtual environment is active.
 
 Step-4. Install Flask and OpenCV
 -------------------------------------
 With the virtual environment activated, install Flask and OpenCV using pip:
+
 pip install flask opencv-python
 
 Step-5. Verify the Installation
