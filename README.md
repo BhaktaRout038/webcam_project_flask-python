@@ -210,5 +210,5 @@ webcam_project/
 
 By following these steps, you will have a VS Code setup ready to run and debug your Flask application.
 
-creatred by- https://bhaktarout038.github.io/bhaktarout/
+created by- https://bhaktarout038.github.io/bhaktarout/
              
