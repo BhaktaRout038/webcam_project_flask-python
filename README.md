@@ -147,8 +147,10 @@ VS Code will create a `launch.json` file inside the `.vscode` directory with a d
     ]
 }
 ```
-if its not work then below code
 
+if its above json code not work then use below code
+
+```json
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -175,6 +177,8 @@ if its not work then below code
         }
     ]
 }
+
+```
 
 Step 5: Run Your Flask Application
 ---------------------------------------
